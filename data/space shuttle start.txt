@@ -175,13 +175,13 @@ mission "Space Shuttle: First Launch"
 				`	"Not really."`
 				`	"I don't remember the last time."`
 			`	You explain that you were originally from New Boston, but were too young to remeber much about the trip to Earth.`
-			`	"Before we leave, head over to the dark side near one of the poles. You won't regret it."
+			`	"Before we leave, head over to the dark side near one of the poles. You won't regret it."`
 			choice
 				`	(Go to the darkside.)`
 				`	(Don't go to the darkside.)`
 					goto end
 			scene "scene/aurora australis"
-			`	"The aurora is quite a site. This is probably the last time I'll see it."
+			`	"The aurora is quite a site. This is probably the last time I'll see it."`
 				goto end
 			label end
 			`	An entire galaxy is out there waiting to be explored. You put Earth behind you and set your heading before firing up the Hyperdrive. This adventure is just getting started.`
