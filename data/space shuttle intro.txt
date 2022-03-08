@@ -58,7 +58,7 @@ mission "Intro [0 Space Shuttle]"
 			`	"Great," he says. "My name is James, by the way."`
 			`	"<first> <last>," you say.`
 			`	"I'm looking forward to traveling with you, Captain <last>," says James.`
-			`	As you're helping him wheel his luggage aboard and showing him his bunk, he says, "Before we take off, you might head on over to the trading center and stock up on metal goods; we can sell those for a good profit on <planet>. Or take a look at the outfitter if you like. Since the <ship> doesn't have weapons, you might want to invest in an extra fuel pod or upgrade the shield generator."`
+			`	As you're helping him wheel his luggage aboard and showing him his bunk, he says, "Before we take off, you might head on over to the trading center and stock up on food or metal goods; we can sell those for a good profit on <planet>. Or take a look at the outfitter if you like. Since the <ship> doesn't have weapons, you might want to invest in an extra fuel pod, engines, or shielding. Your ship's ability to run from pirates and withstand attacks can mean the difference between life and death."`
 				accept
 	
 	on accept
@@ -110,7 +110,7 @@ mission "Intro [1 Space Shuttle]"
 		set "Intro [2 Freighter]: declined"
 		payment 30000
 		conversation
-			`You drop off the shipment of <commodity> on <planet>, and collect your payment of <payment>. "Hauling freight," says James. "Not the most glamorous job, or the most interesting, but you're always guaranteed steady income. If you can line them up right," says James, "rush deliveries can be your best source of income as a freighter captain. And keep your eye out for missions with large amounts of cargo, too, because your barge's hold is definitely big enough to handle them. And if you've got any cargo space to spare and you know what the prices are going to be at your destination, be sure to stock up on something you can sell for a profit. And once you know the galaxy a bit better, instead of taking missions you can find your own trade routes to follow. The only trouble is, build up a fleet with lots of cargo space and not enough defenses and the pirates begin to take notice."`
+			`You drop off the shipment of <commodity> on <planet>, and collect your payment of <payment>. "Hauling freight," says James. "Not the most glamorous job, or the most interesting, but you're always guaranteed steady income. If you can line them up right," says James, "rush deliveries can be your best source of income as a freighter captain. And keep your eye out for missions with large amounts of cargo, too, because <ship>'s hold is definitely big enough to handle them. And if you've got any cargo space to spare and you know what the prices are going to be at your destination, be sure to stock up on something you can sell for a profit. And once you know the galaxy a bit better, instead of taking missions you can find your own trade routes to follow. The only trouble is, build up a fleet with lots of cargo space and not enough defenses and the pirates begin to take notice."`
 			choice
 				`	"Did you have a lot of trouble with pirates when you were a captain?"`
 					goto pirates
