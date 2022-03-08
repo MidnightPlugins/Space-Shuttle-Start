@@ -7,4 +7,4 @@ The space shuttle has no weapons, but lots of cargo space.
 It has an Afterburner.
 
 Get the latest version here:
-https://github.com/MidnightPlugins/Lost-in-Midnight/releases
+https://github.com/MidnightPlugins/Space-Shuttle-Start
