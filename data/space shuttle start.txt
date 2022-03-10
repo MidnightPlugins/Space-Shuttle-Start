@@ -34,7 +34,7 @@ start
 		sprite "ship/space shuttle"
 		attributes
 			category "Light Freighter"
-			"cost" 1960000
+			"cost" 460000
 			"shields" 2100
 			"hull" 5200
 			"required crew" 4
@@ -88,7 +88,7 @@ conversation "space shuttle intro"
 	`	You answer:`
 	name
 	scene "outfit/license"
-	`	You pull out your license in anticipation of being asked for it, but the agent frowns while looking through her database. "I don't see a <first> <last> registered here. What kind of ship is it?"`
+	`	You pull out your license in anticipation of being asked for it, but the agent frowns while looking through her database. "I don't see <first> <last> registered here. What kind of ship is it?"`
 	choice
 		`	"Sorry, that's my name. My ship is the '<ship>'."`
 		`	"<first> <last> is my name. Lookup '<ship>'."`
@@ -107,7 +107,7 @@ ship "Space Shuttle"
 	sprite "ship/space shuttle"
 	attributes
 		category "Light Freighter"
-		"cost" 1960000
+		"cost" 460000
 		"shields" 4200
 		"hull" 2600
 		"required crew" 4
@@ -174,11 +174,11 @@ mission "Space Shuttle: First Launch"
 			choice
 				`	"Not really."`
 				`	"I don't remember the last time."`
-			`	You explain that you were originally from New Boston, but were too young to remeber much about the trip to Earth.`
-			`	"Before we leave, head over to the dark side near one of the poles. You won't regret it."`
+			`	You explain that you were originally from New Boston, but were too young to remember much about the trip to Earth.`
+			`	"Before we leave, you should head over to the dark side near one of the poles. You won't regret it."`
 			choice
-				`	(Go to the darkside.)`
-				`	(Don't go to the darkside.)`
+				`	(Go to the dark side.)`
+				`	(Don't go to the dark side.)`
 					goto end
 			scene "scene/aurora australis"
 			`	"The aurora is quite a site. This is probably the last time I'll see it."`
