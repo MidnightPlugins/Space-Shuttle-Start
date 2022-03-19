@@ -17,7 +17,8 @@ mission "Intro [0 Space Shuttle]"
 	passengers 1
 	source "Earth"
 	destination "Geyser"
-	
+	to offer
+		has "Space Shuttle Start"
 	on offer
 		log "Finally got my pilot's license. Still have to pay the interest on the mortgage on the space shuttle."
 		log "Factions" "Republic" `Hundreds of years ago, the independent territories in different parts of human space agreed to join together into a single democratic government, with Earth as its capital. The rise of the Republic ushered in a long period of peace and prosperity in human history.`
