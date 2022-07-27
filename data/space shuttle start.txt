@@ -65,29 +65,43 @@ start
 			"Chipmunk Plasma Thruster"
 			"Chipmunk Plasma Steering" 2
 			"Hyperdrive"
-			
-		engine 13.5 47
-		engine 8.5 51.5
-		engine 3.5 53.5
-		engine -13.5 47
-		engine -8.5 51.5
-		engine -3.5 53.5
-		"steering engine" -11 -57
+	
+		engine -17 61.5
+			zoom .8
+			under
+		engine -17 61.5
+			zoom .9
+			under
+		engine -12 64
+			zoom 1
+			under
+		engine -12 64
+			zoom .8
+			under
+		engine -5.5 65.5
+			zoom .9
+			under
+		engine -5.5 65.5
+			zoom 1
+			under
+		"steering engine" -14.5 -60
 			zoom 0.5
 			angle 55.997314
 			under
 			right
-		"steering engine" 11 -57
+		"steering engine" -14.5 -60
 			zoom 0.5
 			angle -55.997314
 			under
 			left
-		turret 0 -17.5
-		gun -3 -70.5
+		turret 0 -17.5 "Kinetic Turret (APFSDS-DU)"
 			over
-		gun 3 -70.5
+		gun -2.5 -90
 			over
-		bay "Drone" 0 5
+		gun 2.5 -90
+			over
+		bay Drone 0 5
+			"launch effect" "basic launch"
 		leak "leak" 60 50
 		leak "flame" 60 80
 		explode "tiny explosion" 10
@@ -159,30 +173,44 @@ ship "Space Shuttle"
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering" 2
 		"Hyperdrive"
-	engine 13.5 47
-	engine 8.5 51.5
-	engine 3.5 53.5
-	engine -13.5 47
-	engine -8.5 51.5
-	engine -3.5 53.5
-	"steering engine" -11 -57
+	engine -17 61.5
+		zoom .8
+		under
+	engine -17 61.5
+		zoom .9
+		under
+	engine -12 64
+		zoom 1
+		under
+	engine -12 64
+		zoom .8
+		under
+	engine -5.5 65.5
+		zoom .9
+		under
+	engine -5.5 65.5
+		zoom 1
+		under
+	"steering engine" -14.5 -60
 		zoom 0.5
 		angle 55.997314
 		under
 		right
-	"steering engine" 11 -57
+	"steering engine" -14.5 -60
 		zoom 0.5
 		angle -55.997314
 		under
 		left
-	turret 0 -17.5
-	gun -3 -70.5
+	turret 0 -17.5 "Kinetic Turret (APFSDS-DU)"
 		over
-	gun 3 -70.5
+	gun -2.5 -90
 		over
+	gun 2.5 -90
+		over
+	bay Drone 0 5
+		"launch effect" "basic launch"
 	leak "leak" 60 50
 	leak "flame" 60 80
-	bay "Drone" 0 5
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 25
