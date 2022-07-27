@@ -32,6 +32,7 @@ start
 	ship "Space Shuttle"
 		name "Enterprise"
 		sprite "ship/space shuttle"
+		swizzle 0
 		attributes
 			category "Light Freighter"
 			"cost" 460000
@@ -45,28 +46,32 @@ start
 			"fuel capacity" 400
 			"cargo space" 210
 			"outfit space" 270
-			"weapon capacity" 0
+			"weapon capacity" 60
 			"engine capacity" 80
+			"turret mounts" 1
 			weapon
 				"blast radius" 60
 				"shield damage" 600
 				"hull damage" 300
 				"hit force" 900
 		outfits
+			"Anti-Missile Turret"
 			"RT-I Radiothermal"
 			"LP072a Battery Pack"
 			"D23-QP Shield Generator"
 			
-			"Afterburner"
+			"Volcano Afterburner"
 			"Chipmunk Plasma Thruster"
 			"Chipmunk Plasma Steering" 2
 			"Hyperdrive"
 			
-		engine -9 72.5
-		engine 9 72.5
-		engine 0 74.5
-		engine -8 78
-		engine 8 78
+		engine 13.5 47
+		engine 8.5 51.5
+		engine 3.5 53.5
+		engine -13.5 47
+		engine -8.5 51.5
+		engine -3.5 53.5
+		turret 0 -17.5
 		leak "leak" 60 50
 		leak "flame" 60 80
 		explode "tiny explosion" 10
@@ -105,6 +110,7 @@ conversation "space shuttle intro"
 
 ship "Space Shuttle"
 	sprite "ship/space shuttle"
+	swizzle 0
 	attributes
 		category "Light Freighter"
 		"cost" 460000
@@ -120,26 +126,29 @@ ship "Space Shuttle"
 		"outfit space" 270
 		"weapon capacity" 0
 		"engine capacity" 80
+		"turret mounts" 1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
 			"hull damage" 300
 			"hit force" 900
 	outfits
+		"Anti-Missile Turret"
 		"RT-I Radiothermal"
 		"LP072a Battery Pack"
 		"D23-QP Shield Generator"
 		
-		"Afterburner"
+		"Volcano Afterburner"
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering" 2
 		"Hyperdrive"
-		
-	engine -9 72.5
-	engine 9 72.5
-	engine 0 74.5
-	engine -8 78
-	engine 8 78
+	engine 13.5 47
+	engine 8.5 51.5
+	engine 3.5 53.5
+	engine -13.5 47
+	engine -8.5 51.5
+	engine -3.5 53.5
+	turret 0 -17.5
 	leak "leak" 60 50
 	leak "flame" 60 80
 	explode "tiny explosion" 10
