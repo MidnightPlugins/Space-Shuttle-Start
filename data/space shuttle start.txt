@@ -31,7 +31,8 @@ start
 	set "Intro [0]: declined"
 	ship "Space Shuttle"
 		name "Enterprise"
-		sprite "ship/space shuttle"
+		sprite "ship/spaceshuttle"
+		thumbnail "thumbnail/space_shuttle"
 		swizzle 0
 		attributes
 			category "Light Freighter"
@@ -109,7 +110,8 @@ conversation "space shuttle intro"
 
 
 ship "Space Shuttle"
-	sprite "ship/space shuttle"
+	sprite "ship/spaceshuttle"
+	thumbnail "thumbnail/space_shuttle"
 	swizzle 0
 	attributes
 		category "Light Freighter"
