@@ -46,7 +46,7 @@ start
 			"heat dissipation" .7
 			"fuel capacity" 400
 			"cargo space" 210
-			"outfit space" 270
+			"outfit space" 330
 			"weapon capacity" 60
 			"engine capacity" 80
 			"turret mounts" 1
@@ -125,8 +125,8 @@ ship "Space Shuttle"
 		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 210
-		"outfit space" 270
-		"weapon capacity" 0
+		"outfit space" 330
+		"weapon capacity" 60
 		"engine capacity" 80
 		"turret mounts" 1
 		weapon
