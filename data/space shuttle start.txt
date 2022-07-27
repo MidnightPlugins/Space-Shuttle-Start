@@ -45,9 +45,9 @@ start
 			"drag" 5.9
 			"heat dissipation" .7
 			"fuel capacity" 400
-			"cargo space" 210
-			"outfit space" 330
-			"weapon capacity" 60
+			"cargo space" 240
+			"outfit space" 380
+			"weapon capacity" 90
 			"engine capacity" 80
 			"turret mounts" 1
 			weapon
@@ -72,7 +72,22 @@ start
 		engine -13.5 47
 		engine -8.5 51.5
 		engine -3.5 53.5
+		"steering engine" -11 -57
+			zoom 0.5
+			angle 55.997314
+			under
+			right
+		"steering engine" 11 -57
+			zoom 0.5
+			angle -55.997314
+			under
+			left
 		turret 0 -17.5
+		gun -3 -70.5
+			over
+		gun 3 -70.5
+			over
+		bay "Drone" 0 5
 		leak "leak" 60 50
 		leak "flame" 60 80
 		explode "tiny explosion" 10
@@ -124,9 +139,9 @@ ship "Space Shuttle"
 		"drag" 5.9
 		"heat dissipation" .7
 		"fuel capacity" 400
-		"cargo space" 210
-		"outfit space" 330
-		"weapon capacity" 60
+		"cargo space" 240
+		"outfit space" 380
+		"weapon capacity" 90
 		"engine capacity" 80
 		"turret mounts" 1
 		weapon
@@ -150,9 +165,24 @@ ship "Space Shuttle"
 	engine -13.5 47
 	engine -8.5 51.5
 	engine -3.5 53.5
+	"steering engine" -11 -57
+		zoom 0.5
+		angle 55.997314
+		under
+		right
+	"steering engine" 11 -57
+		zoom 0.5
+		angle -55.997314
+		under
+		left
 	turret 0 -17.5
+	gun -3 -70.5
+		over
+	gun 3 -70.5
+		over
 	leak "leak" 60 50
 	leak "flame" 60 80
+	bay "Drone" 0 5
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 25
