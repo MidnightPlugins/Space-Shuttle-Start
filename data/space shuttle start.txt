@@ -94,7 +94,10 @@ start
 			angle -55.997314
 			under
 			left
-		turret 0 -17.5 "Kinetic Turret (APFSDS-DU)"
+		"reverse engine" 0 -91.5
+			zoom .3
+			over
+		turret 0 -17.5
 			over
 		gun -2.5 -90
 			over
@@ -201,7 +204,10 @@ ship "Space Shuttle"
 		angle -55.997314
 		under
 		left
-	turret 0 -17.5 "Kinetic Turret (APFSDS-DU)"
+	"reverse engine" 0 -91.5
+		zoom .3
+		over
+	turret 0 -17.5
 		over
 	gun -2.5 -90
 		over
