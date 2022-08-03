@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: 
 
 Files: data/*
-Copyright: Michael Arsollon <marsollo@yahoo.com>
+Copyright: Michael Arsollon <midnightplugins@outlook.com>
 License: GPL-3+
 <http://www.gnu.org/licenses/>
 Comment: Derived from works by Michael Zahniser (from under the same license).
@@ -18,10 +18,12 @@ Copyright: NASA
 License: public-domain
  From NASA, and therefore in the public domain because they were created by
  government employees while doing work for the government.
- 
+
 Files:
  data/uploads_files_869754_space_shuttle(top).blend
  data/uploads_files_869754_space_shuttle.blend
+ images/scene/spaceshuttle
+ images/ship/spaceshuttle
 Copyright: MargetaCG
 License: editorial
  Free-use, from site 'cgtrader,' original author set an editorial license.
