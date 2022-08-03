@@ -31,7 +31,9 @@ start
 	set "Intro [0]: declined"
 	ship "Space Shuttle"
 		name "Enterprise"
-		sprite "ship/space shuttle"
+		sprite "ship/spaceshuttle"
+		thumbnail "thumbnail/spaceshuttle_thumb"
+		swizzle 0
 		attributes
 			category "Light Freighter"
 			"cost" 460000
@@ -43,30 +45,66 @@ start
 			"drag" 5.9
 			"heat dissipation" .7
 			"fuel capacity" 400
-			"cargo space" 210
-			"outfit space" 270
-			"weapon capacity" 0
+			"cargo space" 240
+			"outfit space" 380
+			"weapon capacity" 90
 			"engine capacity" 80
+			"turret mounts" 1
 			weapon
 				"blast radius" 60
 				"shield damage" 600
 				"hull damage" 300
 				"hit force" 900
 		outfits
+			"Anti-Missile Turret"
 			"RT-I Radiothermal"
 			"LP072a Battery Pack"
 			"D23-QP Shield Generator"
 			
-			"Afterburner"
+			"Volcano Afterburner"
 			"Chipmunk Plasma Thruster"
 			"Chipmunk Plasma Steering" 2
 			"Hyperdrive"
-			
-		engine -9 72.5
-		engine 9 72.5
-		engine 0 74.5
-		engine -8 78
-		engine 8 78
+	
+		engine -17 61.5
+			zoom .8
+			under
+		engine -17 61.5
+			zoom .9
+			under
+		engine -12 64
+			zoom 1
+			under
+		engine -12 64
+			zoom .8
+			under
+		engine -5.5 65.5
+			zoom .9
+			under
+		engine -5.5 65.5
+			zoom 1
+			under
+		"steering engine" -14.5 -60
+			zoom 0.5
+			angle 55.997314
+			under
+			right
+		"steering engine" -14.5 -60
+			zoom 0.5
+			angle -55.997314
+			under
+			left
+		"reverse engine" 0 -91.5
+			zoom .3
+			over
+		turret 0 -17.5
+			over
+		gun -2.5 -90
+			over
+		gun 2.5 -90
+			over
+		bay Drone 0 5
+			"launch effect" "basic launch"
 		leak "leak" 60 50
 		leak "flame" 60 80
 		explode "tiny explosion" 10
@@ -104,7 +142,9 @@ conversation "space shuttle intro"
 
 
 ship "Space Shuttle"
-	sprite "ship/space shuttle"
+	sprite "ship/spaceshuttle"
+	thumbnail "thumbnail/spaceshuttle_thumb"
+	swizzle 0
 	attributes
 		category "Light Freighter"
 		"cost" 460000
@@ -116,30 +156,65 @@ ship "Space Shuttle"
 		"drag" 5.9
 		"heat dissipation" .7
 		"fuel capacity" 400
-		"cargo space" 210
-		"outfit space" 270
-		"weapon capacity" 0
+		"cargo space" 240
+		"outfit space" 380
+		"weapon capacity" 90
 		"engine capacity" 80
+		"turret mounts" 1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
 			"hull damage" 300
 			"hit force" 900
 	outfits
+		"Anti-Missile Turret"
 		"RT-I Radiothermal"
 		"LP072a Battery Pack"
 		"D23-QP Shield Generator"
 		
-		"Afterburner"
+		"Volcano Afterburner"
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering" 2
 		"Hyperdrive"
-		
-	engine -9 72.5
-	engine 9 72.5
-	engine 0 74.5
-	engine -8 78
-	engine 8 78
+	engine -17 61.5
+		zoom .8
+		under
+	engine -17 61.5
+		zoom .9
+		under
+	engine -12 64
+		zoom 1
+		under
+	engine -12 64
+		zoom .8
+		under
+	engine -5.5 65.5
+		zoom .9
+		under
+	engine -5.5 65.5
+		zoom 1
+		under
+	"steering engine" -14.5 -60
+		zoom 0.5
+		angle 55.997314
+		under
+		right
+	"steering engine" -14.5 -60
+		zoom 0.5
+		angle -55.997314
+		under
+		left
+	"reverse engine" 0 -91.5
+		zoom .3
+		over
+	turret 0 -17.5
+		over
+	gun -2.5 -90
+		over
+	gun 2.5 -90
+		over
+	bay Drone 0 5
+		"launch effect" "basic launch"
 	leak "leak" 60 50
 	leak "flame" 60 80
 	explode "tiny explosion" 10
