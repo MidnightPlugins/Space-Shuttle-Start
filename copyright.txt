@@ -19,6 +19,7 @@ License: public-domain
  From NASA, and therefore in the public domain because they were created by
  government employees while doing work for the government.
  
+Files:
  data/uploads_files_869754_space_shuttle(top).blend
  data/uploads_files_869754_space_shuttle.blend
 Copyright: MargetaCG
