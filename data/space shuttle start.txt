@@ -366,10 +366,6 @@ event "space shuttle add I.S.S."
 			sprite planet/earth
 			distance 965.669
 			period 365.250
-			object Luna
-				sprite planet/luna
-				distance 201.24
-				period 27.3
 		add object Earth
 			sprite planet/earth
 			distance 965.669
@@ -380,6 +376,7 @@ event "space shuttle add I.S.S."
 				period 27.3
 			object "I.S.S."
 				sprite planet/station-nasa0
+					scale 0.5
 				distance 201.24
 				period 27.3
 				offset 180
