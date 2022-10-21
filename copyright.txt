@@ -6,6 +6,7 @@ Copyright: Michael Arsollon <midnightplugins@outlook.com>
 License: GPL-3+
 <http://www.gnu.org/licenses/>
 Comment: Derived from works by Michael Zahniser (from under the same license).
+	(Exceptions noted below.)
 
 Files:
  images/scene/aurora australis
