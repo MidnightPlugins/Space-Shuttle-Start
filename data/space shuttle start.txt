@@ -349,3 +349,44 @@ start
 		explode "large explosion" 10
 		"final explode" "final explosion medium"
 		description "This is an old relic from centuries before the development of the Hyperdrive. It has no weapons, but lots of cargo space. Most of its original systems are gone, replaced with modern outfits."
+
+
+
+
+mission "Space Shuttle: Add I.S.S."
+	landing
+	invisible
+	on offer
+		event "space shuttle add I.S.S."
+		fail
+
+event "space shuttle add I.S.S."
+	system Sol
+		remove object Earth
+			sprite planet/earth
+			distance 965.669
+			period 365.250
+			object Luna
+				sprite planet/luna
+				distance 201.24
+				period 27.3
+		add object Earth
+			sprite planet/earth
+			distance 965.669
+			period 365.250
+			object Luna
+				sprite planet/luna
+				distance 201.24
+				period 27.3
+			object "I.S.S."
+				sprite planet/station-nasa0
+				distance 201.24
+				period 27.3
+				offset 180
+
+planet "I.S.S."
+	attributes station "near earth" tourism
+	landscape land/space5ver8
+	music ambient/machinery
+	description `The construction of the original International Space Station was a milestone of humanities earliest attempts at gaining a foothold into space. Sadly, it was destroyed during the early Turf Wars. This station was created as a monument to the original. While the exterior matches visual records of what the first I.S.S. looked like, the interior layout has replaced the science and research labs with a museum dedicated to the history of human space exploration.`
+	spaceport `Many of the visitors are families or students on school field trips. The gift shop next to the docking ports sells various historically accurate models, science kits, and other knick-knacks meant to appeal to parents and teachers looking for something educational to bring home from their visit.`
