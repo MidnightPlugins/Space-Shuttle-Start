@@ -12,8 +12,6 @@
 
 outfit "Antique Afterburner"
 	category "Engines"
-	series "Human: Afterburners"
-	index 15
 	"cost" 35000
 	thumbnail "outfit/antique afterburner"
 	"mass" 15
