@@ -21,6 +21,7 @@ Files:
  images/planet/station-nasa0
  images/scene/space shuttle
  images/scene/space shuttle 2
+ images/scene/space5
  images/ship/space shuttle
  icon
 Copyright: NASA
